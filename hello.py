@@ -1,5 +1,8 @@
-print("Hello, world!")
-print("This is an additional line in the hello.py file.")
+import requests
 
-print("Goodbye, world!")
-print("I am learning Python programming with AI assistance.")
+
+response = requests.get('https://api.github.com')
+print(response.status_code)
+print(response.json())
+
+
