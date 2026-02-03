@@ -100,3 +100,19 @@ print(f"Updated score: {score}")
 
 full_name = first_name + " " + last_name
 print(f"Full name using concatenation: {full_name}")
+
+string = f"Hi There, My name is {full_name}."
+print(string.lower())
+print(string.upper())
+
+text = "   Hello, World!   "
+print(text.strip())
+
+print(text.replace("World", "Python"))
+
+sentence = "The quick brown fox jumps over the lazy dog"
+words = sentence.split(" ")
+print(words)
+
+
+
